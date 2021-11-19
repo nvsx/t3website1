@@ -25,6 +25,13 @@ This will show an error, because there is no data in the database yet.
 ```$ ddev import-db --src Build/Data/dbdump.sql```
 - Login with test_admin:test_admin
 
+- In Backend adjust site configuration:
+- Module: Sites, select Home
+- "Entry Point": Adjust to https://MYSITE.ddev.site
+- "Site Identifier": Set to MYSITE
+- Save and Close
+- open Homepage: https://MYSITE.ddev.site/
+
 
 ### Recover if database is missing
 We can setup the database via
