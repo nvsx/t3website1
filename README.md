@@ -1,19 +1,15 @@
 # t3website1
 
-## Prerequisits
 
-- A running TYPO3 instance as described in 
+## What is it?
+
+- A running TYPO3 instance as developed in 
 https://github.com/nvsx/t3install
 
-- Starting point is the "empty" sitepackages as described. 
 
-## Steps in this project
+## How to set up?
 
-- Creating your page tree
-- Configuring the site
-- Adding a TypoScript template
-- Creating a site extension
-- Including an HTML theme
-- Replacing the theme content with dynamic parts
-- Creating content
-- Styling the content
+- git clone https://github.com/nvsx/t3website1.git
+- rm -r .git
+- ddev config
+- ddev start
